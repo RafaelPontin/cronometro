@@ -1,0 +1,23 @@
+.bory-hero{
+    margin: 20rem auto;
+    width: 300px;
+    border: 4px solid #17a2b8;
+    background: #d2ebef;
+    border-radius: 50%;
+    text-align: center;
+    height: 300px;
+}
+
+.layout-relogio{
+    margin: 50% 0px;
+    width: 100%;
+}
+
+.label-relogio{
+    font-size: 3rem;
+    color: #17a2b8;
+}
+
+.botoes-relogio button{
+    margin-right: 2%;
+}

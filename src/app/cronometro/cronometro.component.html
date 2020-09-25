@@ -1,0 +1,21 @@
+<div class="bory-hero">
+   
+  <div class="layout-relogio">
+    <div class="label-relogio">
+      <label>{{hora | number: '2.0'}}:{{minutos | number: '2.0'}}:{{segundos | number: '2.0'}}</label>
+    </div>
+    <div class="botoes-relogio">
+      <button class="btn btn-info"
+        (click) = start()
+      >
+        <i class="fas fa-play"></i>
+      </button>
+      <button class="btn btn-info"
+        (click) = pause()
+      >
+        <i class="fas fa-pause"></i>
+      </button>
+    </div>
+  </div>
+  
+</div>
